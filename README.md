@@ -46,7 +46,7 @@ Clone:
 
 ```sh
 git clone https://github.com/icpes/steampipe-plugin-azureaadright.git
-cd steampipe-plugin-azure
+cd steampipe-plugin-azureaadright
 ```
 
 Build, which automatically installs the new version to your `~/.steampipe/plugins` directory:
@@ -59,7 +59,7 @@ Configure the plugin:
 
 ```
 cp config/* ~/.steampipe/config
-vi ~/.steampipe/config/azure.spc
+vi ~/.steampipe/config/azureaadright.spc
 ```
 
 Try it!
