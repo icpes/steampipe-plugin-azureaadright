@@ -45,7 +45,7 @@ Prerequisites:
 Clone:
 
 ```sh
-git clone https://github.com/turbot/steampipe-plugin-azure.git
+git clone https://github.com/icpes/steampipe-plugin-azureaadright.git
 cd steampipe-plugin-azure
 ```
 
