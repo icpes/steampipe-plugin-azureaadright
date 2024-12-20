@@ -1,5 +1,5 @@
 connection "azureaadright" {
-  plugin = "azureaadright"
+  plugin = "local/azureaadright"
 
   # Defaults to "AZUREPUBLICCLOUD". Valid environments are "AZUREPUBLICCLOUD", "AZURECHINACLOUD" and "AZUREUSGOVERNMENTCLOUD"
   # environment = "AZUREPUBLICCLOUD"
