@@ -1,8 +1,8 @@
 connection "azureaadright" {
-  plugin = "azureaadright"
+  plugin = "icpes/azureaadright"
 
   # Defaults to "AZUREPUBLICCLOUD". Valid environments are "AZUREPUBLICCLOUD", "AZURECHINACLOUD" and "AZUREUSGOVERNMENTCLOUD"
-  # environment = "AZUREPUBLICCLOUD"
+  # environment = "AZUREPUBLICCLOUD"  
 
   # You can connect to Azure using one of options below:
 
