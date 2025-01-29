@@ -7,7 +7,7 @@ import (
 	"github.com/turbot/steampipe-plugin-sdk/v5/plugin/transform"
 )
 
-const pluginName = "steampipe-plugin-azure"
+const pluginName = "steampipe-plugin-azureaadright"
 
 // Plugin creates this (azure) plugin
 func Plugin(ctx context.Context) *plugin.Plugin {
