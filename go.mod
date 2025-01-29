@@ -1,4 +1,4 @@
-module github.com/turbot/steampipe-plugin-azure
+module github.com/icpes/steampipe-plugin-azureaadright
 
 go 1.22.4
 
