@@ -5,14 +5,16 @@ import (
 )
 
 type azureaadrightConfig struct {
-	TenantID            *string `hcl:"tenant_id"`
-	ClientID            *string `hcl:"client_id"`
-	ClientSecret        *string `hcl:"client_secret"`
-	CertificatePath     *string `hcl:"certificate_path"`
-	CertificatePassword *string `hcl:"certificate_password"`
-	EnableMsi           *bool   `hcl:"enable_msi"`
-	MsiEndpoint         *string `hcl:"msi_endpoint"`
-	Environment         *string `hcl:"environment"`
+	TenantID            *string  `hcl:"tenant_id"`
+	SubscriptionID      *string  `hcl:"subscription_id"`
+	ClientID            *string  `hcl:"client_id"`
+	ClientSecret        *string  `hcl:"client_secret"`
+	CertificatePath     *string  `hcl:"certificate_path"`
+	CertificatePassword *string  `hcl:"certificate_password"`
+	Username            *string  `hcl:"username"`
+	Password            *string  `hcl:"password"`
+	Environment         *string  `hcl:"environment"`
+	IgnoreErrorCodes    []string `hcl:"ignore_error_codes,optional"`
 }
 
 func ConfigInstance() interface{} {
